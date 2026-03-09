@@ -56,7 +56,7 @@ public class main {
             } else if (choice == 4) {
                 if (myCard != null) {
                     System.out.println("💵 รับเงินคืนทั้งสิ้น: " + myCard.refund() + " บาท");
-                    myCard = null; // ทำลายบัตรทิ้งหลังจากคืนเงิน
+                    myCard = null;
                 } else {
                     System.out.println("❌ ไม่มีบัตรให้คืน");
                 }
